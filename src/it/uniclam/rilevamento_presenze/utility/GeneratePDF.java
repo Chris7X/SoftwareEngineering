@@ -33,7 +33,7 @@ public class GeneratePDF {
         try {
 
             //Creazione documento
-            OutputStream file = new FileOutputStream(new File("C:\\Users\\Antonio Di Civita\\Documents\\Test.pdf"));
+            OutputStream file = new FileOutputStream(new File("C:\\Report.pdf"));
 			Document document = new Document();
 			PdfWriter.getInstance(document, file);
 
